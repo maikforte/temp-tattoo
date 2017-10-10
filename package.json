@@ -1,0 +1,35 @@
+{
+    "name": "temp-tattoo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node temp-tattoo.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maikforte/temp-tattoo.git"
+    },
+    "author": "Michael 'Maik' Ardan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maikforte/temp-tattoo/issues"
+    },
+    "homepage": "https://github.com/maikforte/temp-tattoo#readme",
+    "dependencies": {
+        "angular": "^1.6.6",
+        "angular-animate": "^1.6.6",
+        "angular-aria": "^1.6.6",
+        "angular-material": "^1.1.5",
+        "angular-messages": "^1.6.6",
+        "angular-ui-router": "^0.4.3",
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-inject": "^4.3.0",
+        "gulp-shell": "^0.6.3",
+        "gulp-uglify": "^3.0.0"
+    }
+}
