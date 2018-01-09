@@ -9,6 +9,7 @@ input {
     border: solid;
     border-width: thin;
     border-color: rgba(0, 0, 0, .2);
+    height: 49px;
 }
 
 .temp-tattoo-header {
