@@ -3,7 +3,7 @@
 
 <head>
     <base href="/">
-    <title>The BAMB - Premium Temporary Tattoo</title>
+    <title>The BAMB</title>
     <meta name="viewport" content="width=device-width,
                         initial-scale=1">
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
 <body ng-app="TemporaryTattoo" layout="column">
     <temp-tattoo-header></temp-tattoo-header>
     <md-content flex md-scroll-y layout="column">
-        <ui-view layout="column" flex>
+        <ui-view layout="column" flex="no-shrink">
         </ui-view>
     </md-content>
 </body>
@@ -26,16 +26,19 @@
 <script src="/node_modules/angular/angular.min.js"></script>
 <script src="/node_modules/angular-aria/angular-aria.min.js"></script>
 <script src="/node_modules/angular-animate/angular-animate.min.js"></script>
-<script src="/node_modules/angular-material/angular-material.min.js"></script>
 <script src="/node_modules/angular-messages/angular-messages.min.js"></script>
+<script src="/node_modules/angular-material/angular-material.min.js"></script>
 <script src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="/src/app/temp-tattoo.module.js"></script>
 <script src="/src/app/temp-tattoo.directive.js"></script>
 <script src="/src/app/temp-tattoo.router.js"></script>
 <script src="/src/app/temp-tattoo.theme.js"></script>
 <script src="/src/app/sidenav/sidenav.module.js"></script>
+<script src="/src/app/store/store.module.js"></script>
 <script src="/src/app/sidenav/sidenav.controller.js"></script>
 <script src="/src/app/sidenav/sidenav.service.js"></script>
+<script src="/src/app/store/store.controller.js"></script>
+<script src="/src/app/store/store.service.js"></script>
 <!-- endinject -->
 
 </html>

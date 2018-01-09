@@ -1,5 +1,57 @@
+input {
+    outline: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+.input-container {
+    border: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, .2);
+}
+
 .temp-tattoo-header {
     height: 50px;
+}
+
+.item {
+    border: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, .05);
+}
+
+.item:hover {
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.add-cart-button {
+    margin-top: 10px;
+    background-color: rgba(66, 66, 66, .4);
+    color: rgba(255, 255, 255, 1);
+}
+
+.add-cart-button:hover {
+    background-color: rgba(66, 66, 66, 1);
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 46px;
+    color: rgba(0, 0, 0, .4);
+}
+
+.heading-hash {
+    font-size: 46px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .05);
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    text-justify: auto;
 }
 
 .logo-text {
@@ -28,4 +80,20 @@
 
 #sidenav {
     background-color: rgba(255, 255, 255, 0.95);
+}
+
+.nav-menu-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.nav-menu-item:hover {
+    color: rgba(0, 0, 0, 1);
+    border-bottom: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, .4);
 }

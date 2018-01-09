@@ -11,6 +11,21 @@ angular.module("TemporaryTattoo")
             "templateUrl": "./src/views/home.html"
         };
 
+        var aboutState = {
+            "name": "about",
+            "url": "/about",
+            "templateUrl": "./src/views/about.html"
+        };
+
+        var storeState = {
+            "name": "store",
+            "url": "/store",
+            "templateUrl": "./src/views/store.html",
+            "controller": "StoreController"
+        };
+
         $urlRouterProvider.otherwise("/home");
         $stateProvider.state(homeState);
+        $stateProvider.state(aboutState);
+        $stateProvider.state(storeState);
     });
