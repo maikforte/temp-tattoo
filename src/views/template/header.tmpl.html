@@ -1,6 +1,24 @@
+<!--
 <div class="temp-tattoo-header" md-colors="{'background' : 'background'}" layout-padding layout="row" layout-align="none center">
-    <md-button class="md-icon-button" ng-if="isRendered">
+    <md-button class="md-icon-button" ng-if="isRendered" ng-click="toggleSidenav('sidenav')">
         <md-icon>menu</md-icon>
     </md-button>
+    <div layout="row">
+
+    </div>
 </div>
-<md-divider></md-divider>
+-->
+
+<md-toolbar md-colors="{background : 'background'}">
+    <div class="md-toolbar-tools" layout="row" layout-align="end center">
+        <md-button class="md-icon-button" ng-if="isRendered" ng-click="toggleSidenav('sidenav')">
+            <md-icon>menu</md-icon>
+        </md-button>
+    </div>
+</md-toolbar>
+
+<md-sidenav id="sidenav" md-component-id="sidenav" layout="column" layout-align="center">
+    <div class="sidenav-menu-item" ng-repeat="module in modules">
+        {{module}}
+    </div>
+</md-sidenav>

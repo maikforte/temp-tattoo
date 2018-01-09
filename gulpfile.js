@@ -18,5 +18,6 @@ gulp.task("default", function () {
     });
     return target.pipe(inject(sources))
         .pipe(gulp.dest("./src/views/"))
+        .pipe(shell("npm install"))
         .pipe(shell("npm start"));
 });
